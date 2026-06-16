@@ -129,15 +129,15 @@ export function HeroSection() {
                     key={1}
                     className="relative group"
                   >
-                    <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-primary/80 rounded-lg blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
                     <Button
                       size="lg"
-                      className="relative rounded-lg px-8 py-6 text-base font-semibold bg-gradient-to-r from-primary to-primary/90 hover:from-primary/90 hover:to-primary text-primary-foreground border-2 border-white/20 shadow-lg shadow-primary/5 hover:shadow-xl hover:shadow-primary/10 transition-all duration-300 hover:scale-105"
+                      variant="ghost"
+                      className="h-10.5 rounded-xl px-5 border-2 border-primary/20 hover:border-primary/40 transition-all duration-300 hover:bg-primary/5"
                       onClick={handleFindStudents}
                     >
                       <div className="flex items-center gap-3">
-                        <span className="text-nowrap">Find Students</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right transition-transform duration-300 group-hover:translate-x-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        <span className="text-nowrap" style={{color: 'inherit'}}>Find Students</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right transition-transform duration-300 group-hover:translate-x-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                       </div>
                     </Button>
                   </div>
