@@ -133,7 +133,7 @@ export function HeroSection() {
                       size="lg"
                       variant="ghost"
                       className="h-10.5 rounded-xl px-5 border-2 border-primary/20 hover:border-primary/40 transition-all duration-300 hover:bg-primary/5"
-                      style={{color: '#171717'}}
+                      style={{color: 'black'}}
                       onClick={handleFindStudents}
                     >
                       <div className="flex items-center gap-3">
